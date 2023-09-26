@@ -17,9 +17,7 @@ const Contents = ({ children }: { children: React.ReactNode }) => {
         <Breadcrumb.Item>User</Breadcrumb.Item>
         <Breadcrumb.Item>Bill</Breadcrumb.Item>
       </Breadcrumb>
-      <div
-        style={{ padding: 24, minHeight: "100%", background: colorBgContainer }}
-      >
+      <div style={{ padding: 24, background: colorBgContainer }}>
         {children}
       </div>
     </Content>
